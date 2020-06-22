@@ -1,0 +1,47 @@
+
+
+.lead-section{
+    background-image: url('../img/lead_section/milk.jpg');
+    background-position: center;
+    padding: 20% 20% 20% 8%;
+}
+
+@media(min-width:1200px){
+    .lead-section{
+        padding: 20% 20% 20% 13%;
+    }
+}
+
+.lead-section h2{
+    font-size: 30px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.lead-section p{
+    text-align: left;
+}
+
+@media(min-width:576px){
+    .lead-section h2{
+        font-size: 50px;
+        line-height: 25px;
+        text-align: left;
+    }
+}
+
+.lead-section a:first-of-type{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #FF6033;
+}
+
+.lead-section a:last-of-type{
+    margin-left: 50%;
+}
+
+.lead-section .position-absolute{
+    bottom: 9%;
+    right: 50%;
+}

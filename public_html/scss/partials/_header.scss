@@ -1,0 +1,36 @@
+
+
+
+.navbar-nav{
+    text-align: right!important;
+}
+
+.navbar-light .navbar-toggler{
+    border-color: #FFFFFF;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: #262626;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #FF6033;
+}
+
+.navbar-brand{
+    font-size: 50px;
+    line-height: 25px;
+    color: #262626;
+}
+
+@media(min-width:768px){
+    .navbar-brand{
+        margin-right: 60px;
+    }
+}
+
+@media(min-width:768px){
+    h2{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,15 @@
+
+
+
+.about-section{
+    background-color: #00C4C4;
+}
+
+
+@media(min-width:992px){
+    .about-section{
+        .about-title{
+            padding-top: 90px!important;
+        }
+    }
+}
