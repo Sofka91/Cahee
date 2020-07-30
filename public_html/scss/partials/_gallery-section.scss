@@ -1,0 +1,31 @@
+.gallery-section{
+    h1{
+        margin-top: 20px;
+        margin-bottom: 28px;
+    }
+}
+
+@media(min-width:992px){
+    .gallery-section{
+        h1{
+            padding-top: 50px;
+            margin-bottom: 28px;
+        }
+    }
+}
+
+@media(min-width:768px){
+    .gallery-section{
+        p{
+            padding: 0 100px 0 100px;
+        }
+    }
+}
+
+@media(min-width:992px){
+    .gallery-section{
+        p{
+            padding: 0 200px 0 200px;
+        }
+    }
+}

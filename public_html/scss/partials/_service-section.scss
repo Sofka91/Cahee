@@ -7,9 +7,27 @@
 .service-section{
     h1{
         font-size: 50px;
-       padding-top: 40px;
+        padding-top: 40px;
     }
 }
+
+@media(min-width:576px){
+    .service-section{
+        h1{
+            font-size: 70px;
+        }
+    }
+}
+
+@media(min-width:768px){
+    .service-section{
+        h1{
+            font-size: 60px;
+        }
+    }
+}
+
+
 
 .service-section{
     .service-data{
@@ -24,5 +42,42 @@
             line-height: 27px;
             color: #262626;
         }
+    }
+}
+
+@media(min-width:576px){
+    .service-section{
+        .service-data{
+            .img ml-5:first-of-type{
+                margin-left: 70px!important;
+            }
+        }
+    }
+}
+
+.service-section{
+    .position-relative{
+        h1{
+            bottom: 45%;
+        }
+    }
+}
+
+@media(min-width:768px){
+    .service-section{
+        .position-relative{
+            h1{
+                bottom: 60%;
+            }
+        }
+    }
+}
+
+.service-section{
+    .p::after{
+        content: '';
+        height: 100px;
+        width: 1px;
+        color: #9D9D9D;
     }
 }

@@ -10758,6 +10758,18 @@ p {
   padding-top: 40px;
 }
 
+@media (min-width: 576px) {
+  .service-section h1 {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .service-section h1 {
+    font-size: 60px;
+  }
+}
+
 .service-section .service-data {
   padding: 10% 10% 10%;
 }
@@ -10766,6 +10778,85 @@ p {
   font-size: 20px;
   line-height: 27px;
   color: #262626;
+}
+
+@media (min-width: 576px) {
+  .service-section .service-data .img ml-5:first-of-type {
+    margin-left: 70px !important;
+  }
+}
+
+.service-section .position-relative h1 {
+  bottom: 45%;
+}
+
+@media (min-width: 768px) {
+  .service-section .position-relative h1 {
+    bottom: 60%;
+  }
+}
+
+.service-section .p::after {
+  content: '';
+  height: 100px;
+  width: 1px;
+  color: #9D9D9D;
+}
+
+.gallery-section h1 {
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+
+@media (min-width: 992px) {
+  .gallery-section h1 {
+    padding-top: 50px;
+    margin-bottom: 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  .gallery-section p {
+    padding: 0 100px 0 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .gallery-section p {
+    padding: 0 200px 0 200px;
+  }
+}
+
+.section-register {
+  background-image: url("../img/subscribe_section/currant.png");
+  background-position: center;
+}
+
+@media (min-width: 576px) {
+  .section-register {
+    padding: 5%;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-register {
+    padding: 10%;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-register h3 {
+    font-size: 40px;
+    line-height: 27px;
+    color: #262626;
+    margin-bottom: 34px !important;
+  }
+}
+
+.btn {
+  color: #FFFFFF;
+  background-color: #96B92C;
+  padding: 3px 20px;
 }
 
 /*# sourceMappingURL=theme.css.map */
