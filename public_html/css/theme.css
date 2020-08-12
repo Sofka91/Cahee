@@ -10859,14 +10859,117 @@ p {
   padding: 3px 20px;
 }
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : Aug 3, 2020, 12:34:45 PM
-    Author     : Home
-*/
+.blog-section {
+  background-color: #B07CF7;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+  .blog-section {
+    padding-bottom: 100px;
+  }
+}
+
+.blog-section h1 {
+  padding-top: 40px;
+  color: #FFFFFF;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog-section p {
+  color: #FFFFFF;
+  line-height: 25px;
+  text-align: center;
+}
+
+.blog-section .blog-data .blog-date {
+  top: 10%;
+  left: 10%;
+}
+
+.blog-section .blog-data .blog-date {
+  border: 1px solid transparent;
+  background-color: #262626;
+  padding: 2px;
+  opacity: 70%;
+}
+
+.blog-section .blog-data a {
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: left;
+  top: 50%;
+  left: 10%;
+}
+
+.blog-section .blog-data .blog-item .p:last-of-type {
+  top: 10%;
+}
+
+.blog-section .blog-button a {
+  border: 1px solid transparent;
+  color: #FFFFFF;
+  line-height: 25px;
+  background-color: #F72B3B;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+}
+
+.contact-section {
+  background-image: url("../img/contact_section/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10%;
+}
+
+.contact-section .form-item p {
+  border: 1px solid transparent;
+  padding-left: 10px;
+  border-left: 5px solid #355B82;
+  background-color: #00C4C4;
+  color: white;
+}
+
+.contact-section .form-control {
+  background-color: #00C4C4;
+}
+
+.contact-section .form-control::placeholder {
+  color: #FFFFFF;
+}
+
+footer .special_word {
+  color: #dc3545;
+}
+
+footer .footer-logo {
+  font-size: 30px;
+}
+
+@media (min-width: 992px) {
+  footer .footer-item {
+    display: flex;
+  }
+  .footer-logo {
+    margin-right: 100px;
+  }
+  .copy-item {
+    padding-left: 70px;
+    margin-right: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  footer .copy-item {
+    padding-left: 10px;
+    margin-right: 200px;
+  }
+  .footer-item .footer-paragraph {
+    margin-left: 200px;
+  }
+}
 
 /*# sourceMappingURL=theme.css.map */

@@ -151,7 +151,7 @@ and open the template in the editor.
             </section>
             <section class="gallery-section bg-warning pt-5">
                 <div class="container">
-                    <h1 class="text-center mb-5">Gallery</h1>
+                    <h1 class="text-center mb-5 font-weight-bold">Gallery</h1>
                     <p class="text-center text-justify">
                         Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -211,7 +211,7 @@ and open the template in the editor.
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-lg-5">
-                            <div>
+                            <div class="pb-3">
                                 <button type="submit" class="btn btn-success">SUBSCRIBE</button>
                             </div>
                         </div>
@@ -220,57 +220,106 @@ and open the template in the editor.
             </section>
             <section class="blog-section">
                 <div class="container">
-                    <h1>Blog</h1>
-                    <p class="text-center">
-                        Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    <h1 class="font-weight-bold">Blog</h1>
+                    <p class="text-center pl-md-4 pr-md-4">
+                        Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br>
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure<br>
                         dolor in reprehenderit in voluptate velit.  
                     </p>
-                    <div class="blog-data d-flex">
-                        <div class="blog-item">
-                            <img src="img/blog_section/blog-1.jpg" alt=""/>
-                            <p>
-                                20
-                                NOV
-                            </p>
-                            <div>
-                                <a>Green Smoothies: Too Much of a Good Thing?</a> 
-                                <p>
-                                    By Auskteez - 2 hours ago
+                    <div class="row text-center blog-data">
+                        <div class="col-12 col-sm-6 col-lg-4 position-relative">
+                            <div class="blog-item">
+                                <img src="img/blog_section/blog-1.jpg" alt=""/>
+                                <p class="position-absolute blog-date font-weight-bold">
+                                    20
+                                    <br>
+                                    NOV
                                 </p>
+                                <a href="#" class="position-absolute font-weight-bold">Green Smoothies: Too Much of a <br> Good Thing?</a>
+                                <p>By Auskteez - 2 hours ago</p>
                             </div>
-
-                        </div>
-                        <div class="blog-item">
-                            <img src="img/blog_section/blog-2.jpg" alt=""/>
-                            <p>
-                                14
-                                NOV
-                            </p>
-                            <div>
-                                <a>Growing Food and a “Thirst” for Innovation</a> 
-                                <p>
-                                    By Auskteez - 3 hours ago
+                        </div> 
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="blog-item">
+                                <img src="img/blog_section/blog-2.jpg" alt=""/>
+                                <p class="position-absolute blog-date font-weight-bold">
+                                    14
+                                    <br>
+                                    NOV
                                 </p>
+                                <a href="#" class="position-absolute font-weight-bold">Growing Food and a “Thirst” for
+                                    <br> Innovation</a>
+                                <p>By Auskteez - 3 hours ago</p>
                             </div>
-                        </div>
-                        <div class="blog-item">
-                            <img src="img/blog_section/blog-3.jpg" alt=""/>
-                            <p>
-                                10
-                                NOV
-                            </p>
-                            <div>
-                                <a>Pesticides & Food: What You Need to Know</a> 
-                                <p>
-                                    By Auskteez - 6 hours ago
+                        </div> 
+                        <div class="col-12 col-sm-6 col-lg-4 m-sm-auto m-lg-0">
+                            <div class="blog-item">
+                                <img src="img/blog_section/blog-3.jpg" alt=""/>
+                                <p class="position-absolute blog-date font-weight-bold">
+                                    10
+                                    <br>
+                                    NOV
                                 </p>
+                                <a href="#" class="position-absolute font-weight-bold">Pesticides & Food: What You Need <br> to Know</a>
+                                <p>By Auskteez - 6 hours ago</p>
                             </div>
-                        </div>
+                        </div> 
+                    </div>
+                    <div class="blog-button text-center mt-lg-5">
+                        <a href="#">VIEW MORE</a>
                     </div>
                 </div>
             </section>
+            <section class="contact-section">
+                <div class="container">
+                    <h1 class="font-weight-bold mb-5 text-center">Contact</h1>
+                    <p class="mt-3 text-center mb-5">
+                        For new projects, ideas, business or anything<br>
+                        you'd like to discuss, contact with me!
+                    </p>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-item">
+                                <p>Auskteez Tran</p>
+                                <form class="contact-form" method="post" action="">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control mb-2" id="exampleInputEmail" placeholder="Your Email" required="">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control mb-2" id="exampleInputPhoneNumber" placeholder="Your phone number" required="">
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea rows="7" cols="25" id="exampleTextAreaMessage" placeholder="Your Message" class="form-control"></textarea>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                </form>  
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <div class="contact-item">
+                                <p class="font-weight-bold m-0">ADDRESS</p>
+                                <p class="m-0">123 City name, Street, City, Country</p>
+                                <p class="font-weight-bold m-0">Email</p>
+                                <p class="m-0">cahee@domain.com</p>
+                                <p class="font-weight-bold m-0">PHONE</p>
+                                <p>+012 345 6789</p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </section>
         </main>
+        <footer class=" bg-dark">
+            <div class="container">
+                <div class=" footer-item p-3 text-white text-center">
+                    <p class="copy-item">&COPY; 2015 Company. All right resered</p>
+                    <a class="footer-logo navbar-brand font-weight-bold font-italic text-center text-white" href="#">Cahee</a>
+                    <p class="footer-paragraph">Made with <span class="special_word">love</span> by Auskteez</p>
+                </div>
+            </div>
+        </footer>
 
 
 

@@ -1,0 +1,39 @@
+
+.contact-section{
+    background-image: url('../img/contact_section/contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+}
+
+
+.contact-section{
+    .form-item p{
+        border: 1px solid transparent;
+        padding-left: 10px;
+        border-left: 5px solid #355B82;
+        background-color: #00C4C4;
+        color: white;        
+    }
+}
+
+
+.contact-section{
+    .form-control{
+        background-color: #00C4C4;
+
+    }
+}
+
+.contact-section{
+    .form-control::placeholder{
+        color: #FFFFFF;
+    }
+}
+
+
+
+
+
+

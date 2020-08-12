@@ -1,0 +1,42 @@
+
+
+footer{
+    .special_word{
+        color: #dc3545;
+    }
+}
+
+
+
+footer{
+    .footer-logo{
+        font-size: 30px;
+    }
+}
+
+
+@media(min-width:992px){
+    footer{
+        .footer-item{
+            display: flex;
+        }
+    }&.footer-logo{
+        margin-right: 100px;
+    }&.copy-item{
+        padding-left: 70px;
+        margin-right: 150px;
+    }
+}
+
+@media(min-width:1200px){
+    footer{
+        .copy-item{
+            padding-left: 10px;
+            margin-right: 200px;
+        }
+    }& .footer-item{
+        .footer-paragraph{
+            margin-left: 200px;
+        }
+    }
+}
